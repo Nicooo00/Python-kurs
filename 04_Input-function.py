@@ -1,3 +1,5 @@
+#----------------------Input function----------------------#
+
 # %%
 name = input("Enter your name: ")  # dynamiczna wartosc
 country = "Germany"  # statyczna wartosc

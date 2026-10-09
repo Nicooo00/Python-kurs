@@ -1,3 +1,5 @@
+#----------------------Variables----------------------#
+
 # %%
 name = "nico"
 print("my name is : " + name) # tu nie bedzie spacji miedzy

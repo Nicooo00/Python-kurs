@@ -30,8 +30,4 @@ print("""Your Learning Path:
  \t- Data Engineering
  \t- AI""")
 
-
-
-
-
 # %%

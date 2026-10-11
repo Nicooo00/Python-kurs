@@ -4,13 +4,13 @@
 
 # %%
 ####################################################################################
+#str() - converts the specified value into a string
+
 name = "Nico"
 print(type(name))
 
 age = 20
 print(type(age))
-
-#str() - converts the specified value into a string
 
 print("Your Age is: " + str(age)) # tutaj musimy zamienic int na string bo nie mozemy
 # laczyc stringa z int
@@ -25,7 +25,8 @@ age = age + 5 # tu wyskoczy blad bo age jest juz stringiem i nie mozemy dodac do
 
 # %%
 ######################################################################################
-# Counting the length of a string
+# len() zwraca dlugosc obiektu, w tym przypadku stringa.
+
 password = "12 3a678785"
 print(len( password)) # len() zwraca dlugosc obiektu, w tym przypadku stringa. 
 if len(password) < 8:
@@ -44,7 +45,7 @@ print(text.count("Python"))
 ### zwraca 2 bo python jest case-sensitive
 # %%
 #########################################################################################
-# Transformations
+# replace() - zamienia jeden znak na inny w stringu
 price = "1234,56"
 print(price)
 print(price.replace(",", "."),"\n") # replace() zamienia jeden znak na inny w stringu
